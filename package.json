@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/toshi-toma/jscodeshift-examples/issues"
   },
-  "homepage": "https://github.com/toshi-toma/jscodeshift-examples#readme"
+  "homepage": "https://github.com/toshi-toma/jscodeshift-examples#readme",
+  "dependencies": {
+    "jscodeshift": "^0.6.4"
+  },
+  "devDependencies": {
+    "@types/jscodeshift": "^0.6.3",
+    "@types/node": "^12.12.14"
+  }
 }
