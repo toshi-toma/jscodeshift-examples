@@ -4,8 +4,8 @@
   "description": "jscodeshift examples",
   "main": "index.js",
   "scripts": {
-    "transform:arrow": "jscodeshift -t node_modules/js-codemod/transforms/arrow-function.js target/arrow-function/index.js"
-
+    "transform:arrow": "jscodeshift -t node_modules/js-codemod/transforms/arrow-function.js target/arrow-function/index.js",
+    "transform:rename": "jscodeshift -t transforms/rename-foobar-to-foobaz.js target/rename-foobar-to-foobaz/index.js"
   },
   "repository": {
     "type": "git",
