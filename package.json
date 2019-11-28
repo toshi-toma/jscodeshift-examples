@@ -4,7 +4,8 @@
   "description": "jscodeshift examples",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "transform:arrow": "jscodeshift -t node_modules/js-codemod/transforms/arrow-function.js target/arrow-function/index.js"
+
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/toshi-toma/jscodeshift-examples#readme",
   "dependencies": {
+    "js-codemod": "^7.0.0",
     "jscodeshift": "^0.6.4"
   },
   "devDependencies": {
