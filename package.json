@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "transform:arrow": "jscodeshift -t node_modules/js-codemod/transforms/arrow-function.js target/arrow-function/index.js",
-    "transform:rename": "jscodeshift -t transforms/rename-foobar-to-foobaz.js target/rename-foobar-to-foobaz/index.js"
+    "transform:rename": "jscodeshift -t transforms/rename-foobar-to-foobaz.js target/rename-foobar-to-foobaz/index.js",
+    "transform:rm": "jscodeshift -t transforms/rm-object-assign.js target/rm-object-assign/index.js"
   },
   "repository": {
     "type": "git",
